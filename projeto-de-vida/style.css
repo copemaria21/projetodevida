@@ -2,9 +2,9 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --pink: #ff5789;
+    --rosa: #ff57a5;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --botao-ativo: #3e375e;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--pink);
+    color: var(--rosa);
 }
 
 
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--pink);
+    border-bottom: 4px solid var(--rosa);
 }
 
 .abas-textos {
@@ -87,10 +87,14 @@ body {
 
 .aba-conteudo-titulo-secundario {
     text-align: center;
-    color: var(--pink);
+    color: var(--rosa);
     text-transform: uppercase;
 }
 
+.contador {
+    font-size: 20px;
+    text-align: center;
+}
 
 @media screen and (min-width: 768px) {
     .botoes {
